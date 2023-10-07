@@ -25,7 +25,7 @@ url2 = 'https://flyclipart.com/thumb2/i-love-you-png-transparent-images-pictures
 #Код для вставки изображения
 response = requests.get(url2)
 img = cv2.imdecode(np.frombuffer(response.content, np.uint8), cv2.IMREAD_COLOR)
-#cv2_imshow(img)
+cv2_imshow(img)
 text = pytesseract.image_to_string(img)
 print(text)
 
