@@ -3,3 +3,8 @@ fastapi
 uvicorn
 transformers
 torch
+pandas
+joblib
+BaseModel
+RandomForestClassifier
+
