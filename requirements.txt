@@ -7,4 +7,6 @@ pandas
 joblib
 BaseModel
 RandomForestClassifier
+httpx
+
 
