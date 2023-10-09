@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
-from model import IrisModel, IrisSpecies
+from main import IrisModel, IrisSpecies
 
 # 2. Create the app object
 app = FastAPI()
