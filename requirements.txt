@@ -6,7 +6,7 @@ torch
 pandas
 joblib
 pydantic
-sklearn
+scikit-learn
 httpx
 
 
